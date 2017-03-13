@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Profile</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <form action="hw2.php" method="POST">
+        <h2>Information Form</h2>
+        <table>
+            <tr>
+                <th>
+                    Fullname:
+                </th>
+                <td>
+                    <input name="name" type="text" />
+                </td>
+            </tr>
+            <tr>
+                <th>Class: </th>
+                <td>
+                    <input name="class" type="text" />
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    University:
+                </th>
+                <td>
+                    <input name="uni" type="text" />
+                </td>
+            </tr>
+            <tr>
+                <th valign="top">
+                    Hobby:
+                </th>
+                <td>
+                    <input type="checkbox" name="hobby[]" value="Playing Games"> Playing Games
+                    <br>
+                    <input type="checkbox" name="hobby[]" value="Playing Sport"> Playing Sport
+                    <br>
+                    <input type="checkbox" name="hobby[]" value="Reading Books"> Reading Books
+                    <br>
+                    <input type="checkbox" name="hobby[]" value="Surfing the Internet"> Surfing the Internet
+                    <br>
+                    <input type="checkbox" name="hobby[]" value="Listening to Music"> Listening to Music
+                    <br>
+                    <input type="checkbox" name="hobby[]" value="Coding"> Coding
+                </td>
+            </tr>
+            <tr>
+                <th>Desire: </th>
+                <td>
+                    <input name="desire" type="text" />
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
